@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class GUI {
+public class GUI implements ActionListener {
     // Constructor param
     public GUI(){
         JFrame frame = new JFrame();
