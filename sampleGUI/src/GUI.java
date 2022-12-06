@@ -7,8 +7,8 @@ public class GUI implements ActionListener {
         JFrame frame = new JFrame();
 
         JButton button = new JButton("Check for report");
-
-        JLabel label = new JLabel("Status:");
+        button.addActionListene(this);
+        JLabel label = new JLabel("Checked: ");
 
         JPanel panel = new JPanel();
         panel.setBorder(BorderFactory.createEmptyBorder(100,100,50,100));
