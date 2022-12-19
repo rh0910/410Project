@@ -1,9 +1,13 @@
 package com.example;
-
+/* Java built in libraries. */
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
+/* 
+ * Libraries imported from the @sign foundation.
+ * Required to send data from pico device to @sign onboarded device
+ */
 import org.atsign.client.api.AtClient;
 import org.atsign.common.AtSign;
 import org.atsign.common.KeyBuilders;
