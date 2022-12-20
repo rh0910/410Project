@@ -5,18 +5,18 @@ Peer-to-peer communication system to exchange information about
 an the presence of an object and whether a collision has occured
 with this object with the help of the @sign foundation and API.
 
-// Hardware equipment required for operational results: //
-#   * name of part *                                             * part count *
-1.  Raspberry Pi Pico W                                                 1
-2.  Pico Headers                                                        1
-3.  Solderless Breadboards (ALT)                                        1      
-4.  PCs Jumper Wires                                                    10
-5.  Resistors	                                                        10
-6.  (1, 8) Active Buzzer Module                                         1
-7.  (1, 16) Collision Sensor                                            2
-8.  (1, 9) Passive Buzzer Module                                        1
-9.  (2, 35) Infrared Obstacle Avoidance                                 2    
-10. (1, 7) Knock sensor Module                                          2	
+# Hardware equipment required for operational results: 
+  * name of part *                                             * part count *
+1.  Raspberry Pi Pico W                                              1
+2.  Pico Headers                                                     1
+3.  Solderless Breadboards (ALT)                                     1      
+4.  PCs Jumper Wires                                                 10
+5.  Resistors	                                                     10
+6.  (1, 8) Active Buzzer Module                                      1
+7.  (1, 16) Collision Sensor                                         2
+8.  (1, 9) Passive Buzzer Module                                     1
+9.  (2, 35) Infrared Obstacle Avoidance                              2    
+10. (1, 7) Knock sensor Module                                       2	
 
 // Software requirements: //
 
