@@ -1,5 +1,5 @@
 # 410Project
-We tried
+
 # Project objective:
 Peer-to-peer communication system to exchange information about
 the presence of an object and whether a collision has occured
@@ -47,3 +47,5 @@ through the connected computer.
 
 the "Application.java" file found in the 
 root directory of this repository can be run t
+
+# Talk about the What each folder contains
