@@ -1,9 +1,10 @@
 # 410Project
-
+We tried
 # Project objective:
 Peer-to-peer communication system to exchange information about
-an the presence of an object and whether a collision has occured
-with this object with the help of the @sign foundation and API.
+the presence of an object and whether a collision has occured
+with this object. Driving software developed with the help of
+java libraries and API along with the help of the @sign foundation and API.
 
 # Hardware equipment required for operational results: 
   * name of part *                                             * part count *
@@ -18,7 +19,7 @@ with this object with the help of the @sign foundation and API.
 9.  (2, 35) Infrared Obstacle Avoidance                              2    
 10. (1, 7) Knock sensor Module                                       2	
 
-// Software requirements: //
+# Software requirements: 
 
 OS: From Windows 7 upto Windows 10
 Library: 
