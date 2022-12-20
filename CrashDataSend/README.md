@@ -1,3 +1,14 @@
+# Sending Crash data
+
+crashdata.py is the code that sends data through the atSign.
+
+
+
+
+
+
+
+
 <img width=250px src="https://atsign.dev/assets/img/atPlatform_logo_gray.svg?sanitize=true">
 
 
