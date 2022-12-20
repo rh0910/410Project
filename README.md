@@ -48,4 +48,4 @@ through the connected computer.
 the "Application.java" file found in the 
 root directory of this repository can be run t
 
-# Talk about the What each folder contains
+# Talk about what each folder contains
