@@ -1,12 +1,13 @@
 # 410Project
-We tried
+We tried.
+
 # Project objective:
 Peer-to-peer communication system to exchange information about
 the presence of an object and whether a collision has occured
 with this object. Driving software developed with the help of
 java libraries and API along with the help of the @sign foundation and API.
 
-# Hardware equipment required for operational results: 
+# Hardware equipment requirements: 
 Below is the list of required hardware components needed for this project.
 It is essential to set up the equipment properly. The resistors and LED lights
 serve for debugging purposes and thus the device will work without them.
@@ -37,7 +38,21 @@ Project Details:
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
 
-#  insert how to set up device *
+# // insert how to set up device //
+replace all in this header with the setup instructions
+start from the very beginning, like the way we received
+all the part individually
+go over one component at a time, where to connecet, what to solder
+we never ended up using the resistors and LEDs for debugging, upto
+you if you want to mention those in here, it's cool if we dont ig
+
+# Pre-requisits before running:
+* Ensure that you are upto date on your windows/mac/linux operating system.
+* Make sure that your internet connection is stable. Try watching `ONE` YouTube shorts video.
+* Ensure that your Java jdk library are properly installed and upto date,
+make a "Hey you ;)" program and be the god of coders! jk.
+* Properly clone the @sign library for java. The repository is labelled "at_java"
+and can be found @ this [link](https://github.com/atsign-foundation/at_java). [see what i did there >_<]
 
 Two operational computer systems, any OS is fine, are needed.
 On one computer, we need to verify stable internet connection.
