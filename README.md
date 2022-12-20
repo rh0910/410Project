@@ -1,6 +1,6 @@
 # 410Project
 
-Project objective:
+# Project objective:
 Peer-to-peer communication system to exchange information about
 an the presence of an object and whether a collision has occured
 with this object with the help of the @sign foundation and API.
