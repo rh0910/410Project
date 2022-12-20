@@ -1,7 +1,5 @@
 # 410Project
 
-We tried
-
 Project objective:
 Peer-to-peer communication system to exchange information about
 an the presence of an object and whether a collision has occured
