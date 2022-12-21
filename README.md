@@ -33,7 +33,8 @@ Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
 3. JetBrain IntelliJ(for Java) and Pycharm(for Python).
 
 > If you intend to use Java:
-Any version of Java JDK LTS from version 8.0 to 17.0
+Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to "Application.java" file found in this root directory.
+Maven is also required for this project to work, as it is used to communicate and upload code to the Pico W device.
 
 > If you intend to use Python:
 The latest version of Python and Python 3 should be alright.
@@ -47,6 +48,8 @@ Since the goal of our project was to make use of the @sign libraries and API
 The libraries from the @sign website and github repository. Specifically for this project we made use of the 
 AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
 All these, and a whole lot more can be found on the @sign github repository [here](https://github.com/atsign-foundation/)
+
+Step-by-step instructions on setting up the software environment can be found in this [link](https://docs.atsign.com/) from @sign themselves.
 
 # Project Details:
 "Sense for a collision and send the data between two atSigns.
@@ -119,5 +122,3 @@ for our project. It also contained the clones of "atmosphere_pro", found [here](
 and "atmosphere", found [here](https://github.com/atsign-foundation/atmosphere) repositories. There repositories were mainly clones
 to be looked at how the @sign API was implemented and used in the creation of mobile applications. 
 
-## maven
-This was not supposed to be here.
