@@ -1,5 +1,5 @@
-This directory contains code that is onboarded onto the pico device and allows our device to receive data. More details about how the code works are given below
-and also available to view on https://github.com/atsign-foundation/
+This directory contains code that is used to recieve data from the pico device. More details about how the code works are given below
+and also available to view on https://github.com/atsign-foundation/. AtSign provided a lot of help with understanding how the code works for recieving and sending data.
 
 <img width=250px src="https://atsign.dev/assets/img/atPlatform_logo_gray.svg?sanitize=true">
 
