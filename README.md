@@ -101,12 +101,18 @@ and can be found @ this [link](https://github.com/atsign-foundation/at_java). [s
 
 # What to do and what to expect
 > Two operational computer systems, any OS is fine, are needed.
+
 > On one computer, we need to verify stable internet connection.
+
 > Make sure that your firewall allows the device to access the internet
 through the connected computer.
+
 > After the device has been set up properly, it has to be connected to the computer.
+
 > Depending on which code editor you use, you first upload the code found in "CrashData receive" on the Pico W device.
+
 > After that is complete, you are to run the "Application.java" file found in the root directory of this repository.
+
 > With a stable internet connection and an @sign onboarded onto the Pico W device, the device will now be able to send out data
 when it will detect an object in its proximity and also send a message when a collision has taken place. 
 
