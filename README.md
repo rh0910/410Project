@@ -57,22 +57,29 @@ Step-by-step instructions on setting up the software environment can be found in
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
 
-This project is to demonstrate secure communication between two devices over the internet with the help of "@signs".
-@signs are the creation of the company called @sign, which allows their users to own a unique identity on their server.
-Think of it like an email address. Using an @sign will allow the users to communicate with each other through 
-the @sign company servers while having absolute privacy. This means no sudden advertisements about something 
-which you have been talking about in your friends chats.
-That being said, "communication" between @signs is not limited to just text chat or voice calls. These @signs are capable of being installed on IOT devices,
-which allows the devices to receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
-a combination of sensors that only serves to send and receive a certain form of data. Other than the listed parts mentioned before,
-there are a large variety of sensors available for anyone to purchase and start builing their own IOT device. 
-Examples include how a hospital nurse can be paged about or a doctor receiving heart rate data from the patient etc, through IOT devices.
-
-......more on this later.....
+The purpose of this project is to demonstrate secure communication between two devices/involved parties over the internet with the help of `@signs`.
+`@signs` are the creation of the company called "@sign", which allows their users to create and own a unique individual identity on the company servers.
+Think of it like an email address. Using an `@sign` will allow the users to communicate with each other through 
+the @sign company servers while having absolute privacy. This means no sudden advertisements about something which you have been talking about in your group chats.
+That being said, "communication" between `@signs` is not limited to just text chat or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
+a combination of sensors that only serves to send and receive certain forms(s) of data. Other than the listed parts mentioned above,
+there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Starter IOT kits are available on Amazon,
+and can also be found at MicroCenter and other hardware stores. Example uses of `IOT` devices include how a hospital nurse can be paged directly from 
+the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
+For this project, we have joined together and created an `@sign IOT` device. The objective of this project was that our device needs to be 
+capable of sensing the presence of an object or "obstacle" in it's vicinity. Our device should also be able to detect when a collision has
+occured with "obstacle".
 
 The two devices (or people behind the scene) are the Pico W device and one windows or mac or linux device.
 Both need to be connected to the internet for this project to work.
 The Pico W device will send a "message" to another computer, with the help of an @sign,
+
+# Potential use case
+
+Due to it's small size and scale, along with it being very light weight, our project IOT device can be installed and embedded onto 
+remote controllable devices, such as drones. This will allow the controller to know about collisions and avoid potentially damaging the 
+operational device. Thus, this can be installed on drones and be sent out for exploration. Maybe sometime it'll be used on robots sent out
+for interplanetary explorations, but for now we can stick on Earth.
 
 # // insert how to set up device //
 replace all in this header with the setup instructions
