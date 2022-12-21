@@ -61,11 +61,13 @@ The purpose of this project is to demonstrate secure communication between two d
 `@signs` are the creation of the company called "@sign", which allows their users to create and own a unique individual identity on the company servers.
 Think of it like an email address. Using an `@sign` will allow the users to communicate with each other through 
 the @sign company servers while having absolute privacy. This means no sudden advertisements about something which you have been talking about in your group chats.
+
 That being said, "communication" between `@signs` is not limited to just text chat or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
 a combination of sensors that only serves to send and receive certain forms(s) of data. Other than the listed parts mentioned above,
-there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Starter IOT kits are available on Amazon,
-and can also be found at MicroCenter and other hardware stores. Example uses of `IOT` devices include how a hospital nurse can be paged directly from 
-the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
+there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Example uses of `IOT` devices include how a hospital nurse can be paged directly from the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
+
+> Starter IOT kits are available for purchase on Amazon and can also be found at MicroCenter and some hardware stores. 
+
 For this project, we have joined together and created an `@sign IOT` device. The objective of this project was that our device needs to be 
 capable of sensing the presence of an object or "obstacle" in it's vicinity. Our device should also be able to detect when a collision has
 occured with "obstacle".
@@ -95,16 +97,18 @@ you if you want to mention those in here, it's cool if we dont ig
 * Ensure that your Java jdk library are properly installed and upto date,
 make a "Hey you ;)" program and be the god of coders! jk.
 * Properly clone the @sign library for java. The repository is labelled "at_java"
-and can be found @ this [link](https://github.com/atsign-foundation/at_java). [see what i did there >_<]
+and can be found @ this [link](https://github.com/atsign-foundation/at_java). [see what I did there >_<]
 
-Two operational computer systems, any OS is fine, are needed.
-On one computer, we need to verify stable internet connection.
-Make sure that your firewall allows the device to access the internet
+# What to do and what to expects
+> Two operational computer systems, any OS is fine, are needed.
+> On one computer, we need to verify stable internet connection.
+> Make sure that your firewall allows the device to access the internet
 through the connected computer.
-
-
-the "Application.java" file found in the 
-root directory of this repository can be run t
+> After the device has been set up properly, it has to be connected to the computer.
+> Depending on which code editor you use, you first upload the code found in "CrashData receive" on the Pico W device.
+> After that is complete, you are to run the "Application.java" file found in the root directory of this repository.
+> With a stable internet connection and an @sign onboarded onto the Pico W device, the device will now be able to send out data
+when it will detect an object in its proximity and also send a message when a collision has taken place. 
 
 # Contents in each directory
 ##### More details can be found in each directory
