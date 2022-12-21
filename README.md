@@ -34,12 +34,15 @@ Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
 
 > If you intend to use Java:
 Any version of Java JDK LTS from version 8.0 to 17.0
+
 > If you intend to use Python:
 The latest version of Python and Python 3 should be alright.
+
 > For flutter/dart
 Use the latest version of the flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install)
 for a step by step guide on how to properly set up the SDK.
 The latest version of the Dart SDK should be used. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
+
 > Since the goal of our project was to make use of the @sign libraries and API
 The libraries from the @sign website and github repository. Specifically for this project we made use of the 
 AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
