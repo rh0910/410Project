@@ -22,6 +22,7 @@ The list below is given in the order of: `name of part` and `count`.
 8.  `(1, 9) Passive Buzzer Module`, `1`
 9.  `(2, 35) Infrared Obstacle Avoidance`, `2`    
 10. `(1, 7) Knock sensor Module`, `2`	
+11. `Micro USB cable (able to exchange data)`, `1`
 
 # Software requirements: 
 
@@ -44,13 +45,12 @@ Use the latest version of the flutter SDK. Check out this [link](https://docs.fl
 for a step by step guide on how to properly set up the SDK.
 The latest version of the Dart SDK should be used. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
 
-Since the goal of our project was to make use of the @sign libraries and API
-The libraries from the @sign website and github repository. Specifically for this project we made use of the 
+Part of the goal of our project was to make use of the @sign libraries and API. Specifically for this project we made use of the 
 AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
-All these, and a whole lot more can be found on the @sign github repository [here](https://github.com/atsign-foundation/)
+All these libraries, along with a whole lot more can be found on the @sign foundation github repository [here](https://github.com/atsign-foundation/)
 
-Depending on which language you choose to use, @sign has you covered with how to get yourself familiar 
-Step-by-step instructions on setting up the software environment can be found in this [link](https://docs.atsign.com/) from @sign themselves.
+Depending on which programming language you choose to use, @sign has you covered with how to get yourself familiar with their modules and libraries.
+Step-by-step instructions on properly setting up the software environment can be found in this [link](https://docs.atsign.com/), published by @sign themselves.
 
 # Project Details:
 "Sense for a collision and send the data between two atSigns.
