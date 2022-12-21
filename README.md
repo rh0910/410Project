@@ -10,7 +10,7 @@ java libraries and API along with the help of the @sign foundation and API.
 Below is the list of required hardware components needed for this project.
 It is essential to set up the equipment properly. The resistors and LED lights
 serve for debugging purposes and thus the device will work without them.
-The list below is given in the order of: `name of part` and `count`
+The list below is given in the order of: `#0969DA``name of part` and `count`
 
 1.  Raspberry Pi Pico W, 1
 2.  Pico Headers, 1
