@@ -1,5 +1,5 @@
 # blink.py
-
+# File provided by atSign to show us how the LED would work.
 import machine
 import time
 
