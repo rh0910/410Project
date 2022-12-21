@@ -2,6 +2,7 @@ import machine
 import time
 
 # A lot of this was inspired by Arduino code 
+# This code was alot transfered to the CrashSendData so that we can use these sensor values to send data.
 led = machine.Pin("LED", machine.Pin.OUT) # LED is the onboard LED on the pico
 shock = machine.Pin(0, machine.Pin.IN) # 0 is the GP0 pin on the pico. It is an input pin.
 buzzer = machine.Pin(1, machine.Pin.OUT) # 1 is the GP1 pin on the pico. It is an output pin becuase the buzzer makes sound.
