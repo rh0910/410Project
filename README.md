@@ -43,15 +43,24 @@ Use the latest version of the flutter SDK. Check out this [link](https://docs.fl
 for a step by step guide on how to properly set up the SDK.
 The latest version of the Dart SDK should be used. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
 
-> Since the goal of our project was to make use of the @sign libraries and API
+Since the goal of our project was to make use of the @sign libraries and API
 The libraries from the @sign website and github repository. Specifically for this project we made use of the 
 AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
 All these, and a whole lot more can be found on the @sign github repository [here](https://github.com/atsign-foundation/)
 
-Project Details:
+# Project Details:
 "Sense for a collision and send the data between two atSigns.
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
+This project is to demonstrate secure communication between two devices over the internet with the help of "@signs".
+@signs are the creation of the company called @sign, which allows their users to own a unique identity on their server.
+Think of it like an email address. Using an @sign will allow the users to communicate with each other through 
+the @sign company servers while having absolute privacy. This means no sudden advertisements about something 
+which you have been talking about in your friends chats. 
+......more on this later.....
+The two devices (or people behind the scene) are the Pico W device and one windows or mac or linux device.
+Both need to be connected to the internet for this project to work.
+The Pico W device will send a "message" to another computer, with the help of an @sign,
 
 # // insert how to set up device //
 replace all in this header with the setup instructions
