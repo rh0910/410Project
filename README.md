@@ -56,7 +56,13 @@ This project is to demonstrate secure communication between two devices over the
 @signs are the creation of the company called @sign, which allows their users to own a unique identity on their server.
 Think of it like an email address. Using an @sign will allow the users to communicate with each other through 
 the @sign company servers while having absolute privacy. This means no sudden advertisements about something 
-which you have been talking about in your friends chats. 
+which you have been talking about in your friends chats. That being said, "communication" between @signs
+is not limited to just text chat or voice calls. These @signs are capable of being installed on IOT devices,
+which allows the devices to receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
+a combination of sensors that only serves to send and receive a certain form of data. Other than the listed parts mentioned before,
+there are a large variety of sensors available for anyone to purchase and start builing their own IOT device. 
+Examples include how a hospital nurse can be paged about 
+or a doctor receiving heart rate data from the patient etc, through an IOT device
 
 ......more on this later.....
 
