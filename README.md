@@ -57,7 +57,9 @@ This project is to demonstrate secure communication between two devices over the
 Think of it like an email address. Using an @sign will allow the users to communicate with each other through 
 the @sign company servers while having absolute privacy. This means no sudden advertisements about something 
 which you have been talking about in your friends chats. 
+
 ......more on this later.....
+
 The two devices (or people behind the scene) are the Pico W device and one windows or mac or linux device.
 Both need to be connected to the internet for this project to work.
 The Pico W device will send a "message" to another computer, with the help of an @sign,
