@@ -99,7 +99,7 @@ make a "Hey you ;)" program and be the god of coders! jk.
 * Properly clone the @sign library for java. The repository is labelled "at_java"
 and can be found @ this [link](https://github.com/atsign-foundation/at_java). [see what I did there >_<]
 
-# What to do and what to expects
+# What to do and what to expect
 > Two operational computer systems, any OS is fine, are needed.
 > On one computer, we need to verify stable internet connection.
 > Make sure that your firewall allows the device to access the internet
