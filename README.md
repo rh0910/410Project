@@ -49,23 +49,24 @@ The libraries from the @sign website and github repository. Specifically for thi
 AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
 All these, and a whole lot more can be found on the @sign github repository [here](https://github.com/atsign-foundation/)
 
+Depending on which language you choose to use, @sign has you covered with how to get yourself familiar 
 Step-by-step instructions on setting up the software environment can be found in this [link](https://docs.atsign.com/) from @sign themselves.
 
 # Project Details:
 "Sense for a collision and send the data between two atSigns.
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
+
 This project is to demonstrate secure communication between two devices over the internet with the help of "@signs".
 @signs are the creation of the company called @sign, which allows their users to own a unique identity on their server.
 Think of it like an email address. Using an @sign will allow the users to communicate with each other through 
 the @sign company servers while having absolute privacy. This means no sudden advertisements about something 
-which you have been talking about in your friends chats. That being said, "communication" between @signs
-is not limited to just text chat or voice calls. These @signs are capable of being installed on IOT devices,
+which you have been talking about in your friends chats.
+That being said, "communication" between @signs is not limited to just text chat or voice calls. These @signs are capable of being installed on IOT devices,
 which allows the devices to receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
 a combination of sensors that only serves to send and receive a certain form of data. Other than the listed parts mentioned before,
 there are a large variety of sensors available for anyone to purchase and start builing their own IOT device. 
-Examples include how a hospital nurse can be paged about 
-or a doctor receiving heart rate data from the patient etc, through an IOT device
+Examples include how a hospital nurse can be paged about or a doctor receiving heart rate data from the patient etc, through IOT devices.
 
 ......more on this later.....
 
