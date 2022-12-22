@@ -89,7 +89,7 @@ you if you want to mention those in here, it's cool if we dont ig
 * Make sure that your internet connection is stable. Try watching `ONE` YouTube shorts video.
 * Ensure that your Java jdk library are properly installed and upto date, try to make a "Hello World!" program and feel like a god tier coder! jk.
 * If you wish to run our version of the project as it is, all you need to do is have Java JDK.
-* If you are intending to write your own fucntional code in Python or Flutter/Dart, make sure to clone clone the @sign library for those languages and properly import them into your application file. The repositories can be found @ this [link](https://github.com/atsign-foundation). [see what I did there >_<]
+* If you are intending to write your own fucntional code in Python or Flutter/Dart, make sure to clone clone the @sign library for those languages and properly import them into your application file. Python/MicroPython libraries can be found @ [this](https://github.com/atsign-foundation/at_pico_w), while for Flutter/Dart look @ [here](https://github.com/atsign-foundation/at_client_sdk). [see what I did there >_<]
 
 # What to do and what to expect for the project
 > Two operational computer systems, any OS is fine, are needed.
