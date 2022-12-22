@@ -3,13 +3,13 @@
 # Project objective:
 Peer-to-peer communication system to exchange information about
 the presence of an object and whether a collision has occured
-with this object. Driving software developed with the help of
-java libraries and API along with the help of the @sign foundation and API.
+with this object. Driving software developed in Java, along with the help of the @sign libraries and API.
 
 # Hardware equipment requirements: 
 Below is the list of required hardware components needed for this project.
-It is essential to set up the equipment properly. The resistors and LED lights
-serve for debugging purposes and thus the device will work without them.
+It is essential to set up the equipment properly. 
+
+The resistors and LED lights serve for debugging purposes and thus the project device will work without them.
 The list below is given in the order of: `name of part` and `count`.
 
 1.  `Raspberry Pi Pico W`, `1`
@@ -26,22 +26,21 @@ The list below is given in the order of: `name of part` and `count`.
 
 # Software requirements: 
 
-OS: From Windows 7 upto Windows 10, macOS 10.15 (Catalina) to 13 (Ventura), or any Linux LTS operating system
+OS: From Windows 7 upto Windows 10, macOS 10.15 (Catalina) to 13 (Ventura), or any Linux LTS operating system (preferably Ubuntu)
 Suggested code editors or IDEs to use:
-1. Microsoft Visual Studio Code.
+1. Microsoft Visual Studio Code(Overall good).
 Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
-2. Android Studio Dolphin.
+2. Android Studio Dolphin (For Flutter/Dart development).
 3. JetBrain IntelliJ(for Java) and Pycharm(for Python).
 
-> If you intend to use Java:
-Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file, found in this root directory.
-Maven is also required for this project to work, as it is used to communicate and upload code to the Pico W device.
+> If you intend to develop in Java:
+Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file. This program is found in this root directory. Maven is also required for this project, as it is used to communicate and upload code to the Pico W device.
 
-> If you intend to use Python:
-The latest version of Python and Python 3 should be alright.
+> If you intend to develop in Python and Micro Python:
+The latest version of Python and Python 3 should do just fine. 
 
-> For flutter/dart
-Use the latest version of the flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install)
+> If you intend to develop a mobile application using Flutter and Dart:
+Use the latest version of the Flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install)
 for a step by step guide on how to properly set up the SDK.
 The latest version of the Dart SDK should be used. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
 
@@ -50,17 +49,16 @@ AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
 All these libraries, along with a whole lot more can be found on the @sign foundation github repository [here](https://github.com/atsign-foundation/)
 
 Depending on which programming language you choose to use, @sign has you covered with how to get yourself familiar with their modules and libraries.
-Step-by-step instructions on properly setting up the software environment can be found in this [link](https://docs.atsign.com/), published by @sign themselves.
+Step-by-step instructions on properly setting up the software environment can be found in this [link](https://docs.atsign.com/), published by @sign themselves. Feel free to check it out.
 
 # Project Details:
 "Sense for a collision and send the data between two atSigns.
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
 
-The purpose of this project is to demonstrate secure communication between two devices/involved parties over the internet with the help of `@signs`.
-`@signs` are the creation of the company called "@sign", which allows their users to create and own a unique individual identity on the company servers.
-Think of it like an email address. Using an `@sign` will allow the users to communicate with each other through 
-the @sign company servers while having absolute privacy. This means no sudden advertisements about something which you have been talking about in your group chats.
+The purpose of this project is to demonstrate secure communication between two devices or "involved parties" over the internet with the help of `@signs`.
+`@signs` are the creation of the company called "@sign", which allows their users to create and own an unique individual identity on the company servers.
+Think of it like an email address or a online gamertag, which is distinct for every user. Using an `@sign` will allow the users to communicate with each other through the @sign company servers while maintaining absolute privacy. This privacy is provided due to the @sign servers commnicating with encrypted data This means no sudden advertisements about something which you have been talking about in your group chats.
 
 That being said, "communication" between `@signs` is not limited to just text chat or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
 a combination of sensors that only serves to send and receive certain forms(s) of data. Other than the listed parts mentioned above,
@@ -99,7 +97,7 @@ make a "Hey you ;)" program and be the god of coders! jk.
 * Properly clone the @sign library for java. The repository is labelled "at_java"
 and can be found @ this [link](https://github.com/atsign-foundation/at_java). [see what I did there >_<]
 
-# What to do and what to expect
+# What to do and what to expect for the project
 > Two operational computer systems, any OS is fine, are needed.
 
 > On one computer, we need to verify stable internet connection.
