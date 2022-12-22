@@ -56,23 +56,18 @@ Step-by-step instructions on properly setting up the software environment can be
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
 
-The purpose of this project is to demonstrate secure communication between two devices or "involved parties" over the internet with the help of `@signs`.
-`@signs` are the creation of the company called "@sign", which allows their users to create and own an unique individual identity on the company servers.
-Think of it like an email address or a online gamertag, which is distinct for every user. Using an `@sign` will allow the users to communicate with each other through the @sign company servers while maintaining absolute privacy. This privacy is provided due to the @sign servers commnicating with encrypted data This means no sudden advertisements about something which you have been talking about in your group chats.
+The purpose of this project is to demonstrate secure communication between two devices or two "involved parties" over the internet with the help of `@signs`. These `@signs` are the creation of the company called "@sign", which allows their users to create and own an unique individual identity on the company servers. Think of it like an email address or an online gamertag, which is distinct for every user. Using an `@sign` will allow the users to communicate with each other through the @sign company servers while maintaining absolute privacy. This privacy is provided due to the @sign company's encryption protocol for data transmission, as the data is encrypted using special keys, and it is the keys that are shared among `@signs`. This means no sudden advertisements about something which you have been talking about in your group chats.
 
-That being said, "communication" between `@signs` is not limited to just text chat or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data. `IOT` stands for `Internet Of Things`, where a device is built using
-a combination of sensors that only serves to send and receive certain forms(s) of data. Other than the listed parts mentioned above,
-there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Example uses of `IOT` devices include how a hospital nurse can be paged directly from the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
+That being said, "communication" between `@signs` is not limited to just text chats or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data over the internet. `IOT` stands for `Internet Of Things`, where a device is built using
+a combination of sensors that only serves to send and receive certain forms(s) of data while connected to the internet. Other than the listed parts mentioned above, there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Example uses of `IOT` devices include how a hospital nurse can be paged directly from the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
 
 > Starter IOT kits are available for purchase on Amazon and can also be found at MicroCenter and some hardware stores. 
 
-For this project, we have joined together and created an `@sign IOT` device. The objective of this project was that our device needs to be 
-capable of sensing the presence of an object or "obstacle" in it's vicinity. Our device should also be able to detect when a collision has
+For this project, we have joined together and developed an `@sign IOT` device. The objective of this project was that our device needs to be 
+capable of sensing the presence of an object or "obstacle" in it's vicinity. Furthermore, our device should also be able to detect when a collision has
 occured with "obstacle".
 
-The two devices (or people behind the scene) are the Pico W device and one windows or mac or linux device.
-Both need to be connected to the internet for this project to work.
-The Pico W device will send a "message" to another computer, with the help of an @sign,
+The two devices (or people behind the scene) are one in possession of the Pico W device and another person on a windows or mac or linux based computer running the "Application.java" program. Both need to be connected to the internet for this project to work. The Pico W device will send a "message" to this computer computer about obstacle and collision detection through the onboarded `@sign`.
 
 # Potential use case
 
