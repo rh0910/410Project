@@ -109,18 +109,22 @@ public class Application extends JFrame {
         int x = 0; 
         int c = 0; 
         String previousValue = null;
+        // Simple forever running for loop, useful to grab i for uses in time. 
         for (int i = 0; i < 50000; i++) {
+            // delay the for loop for 1 second.     
             Thread.sleep(1000);
             
             String key = "crash";
             atClient.executeCommand("delete:cached:public:" + key + pico.toString(), false);
             String data = atClient.get(pk).get(); 
             
-            // Check what data is being receved, and what mode we are looking for.
+            // Check what data is being recieved, and what mode we are looking for.
             if (myFrame.b == 1 && data.equals("Obstacles Detected.")) {
+                // x checks the amount of seconds passed. 
                 myFrame.input.setText("Obstacle was detected for " + (x++) + " seconds.");
             }
             if (myFrame.b == 2 && data.equals("Crash detected.") && !data.equals(previousValue)) {
+                // c detects the amount of crashes that have occurred. 
                 previousValue = "Crash detected."; 
                 myFrame.input.setText("Crash detected " + (++c) + " times.");
             }
@@ -129,6 +133,7 @@ public class Application extends JFrame {
                 previousValue = ""; 
                 x = 0; 
             }
+            // log to the console, for test purposes. 
             System.out.println("What was detected?\n " + data + '\n');
         }
     }
