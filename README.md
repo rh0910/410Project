@@ -80,8 +80,19 @@ for interplanetary explorations, but for now we can stick on Earth.
 We recieved the resistors, LEDS, jumper cables (wires), 2 Infrared Obstacle Avoidance sensors, 2 Knock sensor Modules, 1 Passive Buzzer Module, 1 Active Buzzer Module and 2 Collision Sensors. We also recieved a breadboard and the Raspberry Pi Pico. We wanted to put all the sensors together so I (Ronaldo) got another breadboard and more wires so that all the sensors could be connected to the pico. I (Ronaldo) used to be a Computer Engineering major so I had those parts laying around. If you, any one reading this, wants to connect all sensors you will need another breadboard and more wires. 
 
 To Begin setting up:
-![This is an image](https://cdn-shop.adafruit.com/970x728/4883-06.jpg = 250x250)
 
+<img src="https://cdn-shop.adafruit.com/970x728/4883-06.jpg" width=50% height=50%>
+
+Image [Source](https://www.adafruit.com/product/4883?gclid=CjwKCAiAnZCdBhBmEiwA8nDQxSzivf3NmQMk7iUWZptxnislaWqZFTsSv0emR_lxNcoU3eRMLAi6whoCJeYQAvD_BwE)
+
+The image above is a raspberry pi pico. We can see the pins for it are not connected. Unfortunately that means it needs to be soldered. It is not the easiest thing to do. If anyone can find a way to get the pins on the pico working without soldering be my guest. I (Ronaldo) have found it hard to get devices like the pico to work properly without soldering. I knew someone who knew how to solder and they soldered the board for us. Next step is to put it on our breadboard.
+
+<img src="https://www.allelectronics.com/mas_assets/cache/image/3/3/a/1/13217.Jpg" width=40% height=40%>
+
+Image [Source](https://www.allelectronics.com/item/pb-400/solderless-breadboard-400-contacts/1.html)
+
+The breadboard is shown above. The pico perfectly fits in the middle from the letters cde and fgh. The pico has 40 pins to we goes into the holes up to the number 20. 
+We also need to mention how the breadboard works. The numbers are the rows and the rows are connected horizontally. For example row 1 A is connected up to row 1 E. Row 1 A is not connected to row 2 A. If you put a wire between those then they would be connected. Another thing to mention is the rails on the side with the + and -. The + denotes a voltage in and the red line means that all those holes are connected. The - denotes ground and the blue line mean all the holes next to it are all connected. These rails are very useful because they provide easy access of voltage in and ground. Now we need to start connecting all the sensors.
 
 replace all in this header with the setup instructions
 start from the very beginning, like the way we received
