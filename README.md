@@ -84,7 +84,7 @@ go over one component at a time, where to connecet, what to solder
 we never ended up using the resistors and LEDs for debugging, upto
 you if you want to mention those in here, it's cool if we dont ig
 
-# Pre-requisits before running:
+# Pre-requisites before running:
 * Ensure that you are upto date on your windows/mac/linux operating system.
 * Make sure that your internet connection is stable. Try watching `ONE` YouTube shorts video.
 * Ensure that your Java jdk library are properly installed and upto date, try to make a "Hello World!" program and feel like a god tier coder! jk.
@@ -99,14 +99,14 @@ you if you want to mention those in here, it's cool if we dont ig
 > Make sure that your firewall allows the device to access the internet
 through the connected computer.
 
-> After the device has been set up properly, it has to be connected to the computer.
+> After the device has been set up properly, it has to be connected to the computer. We need to make sure we have a micro usb cable that is a send data cable.
 
-> Depending on which code editor you use, you first upload the code found in "CrashData receive" on the Pico W device.
+> Depending on which code editor you use, you first upload the code found in "CrashData Send" on the Pico W device. This is easiest with `Pico-W-Go` as you can simply just click upload project and it uploads to the pico.
 
-> After that is complete, you are to run the "Application.java" file found in the root directory of this repository.
+> After that is complete, you are to run the "Application.java" file found in the root directory of this repository. This java file will display a GUI. It allows us to choose which sensor data we want to see. Since we can only see the ir obstacle sensor and the crash sensor we will see data from those.
 
 > With a stable internet connection and an @sign onboarded onto the Pico W device, the device will now be able to send out data
-when it will detect an object in its proximity and also send a message when a collision has taken place. 
+when it will detect an object in its proximity and also send a message when a collision has taken place. In the GUI when we choose which data we want to see, each one shows different results. Obstacke detection will count how many seconds we see the object. Crash detection will count how times the crash sensor was hit. It wili save that value even when we change the mode.
 
 # Contents in each directory
 ## More details can be found in each directory
