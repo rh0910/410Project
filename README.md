@@ -183,7 +183,7 @@ Some notes about the sensors:
 
 - The knock sensor does not stay on long enough for it to be detected. If you try to debug and print out "knock detected" it will not output. The sensor works because its LED will turn on it when you hit it but it does not output because it does it so fast.
 - The IR sensor has 2 potentiometer on it. Those are basically resistors that have a knob you can turn to change the resistance. This change in resistance changes the distance that the ir sensor can detect. You can change it so something has to be really close to be detected or further away.
-- Lastly, a warning on the buzzer. There are 2 we are given which are a passive one and an active. The active one is VERY LOUD. It startled me (Ronaldo) when I first heard it. The passive buzzer produces a small buzz and is much quieter. Even then I would recommend using the passive one only. 
+- Lastly, a warning on the buzzer. There are 2 we are given which are a passive one and an active. The active one is VERY LOUD. It startled me (Ronaldo) when I first heard it. The passive buzzer produces a small buzz and is much quieter. I would recommend using the passive one only. 
 
 # Pre-requisites before running:
 * Ensure that you are upto date on your windows/mac/linux operating system.
