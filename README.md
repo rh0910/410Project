@@ -37,7 +37,7 @@ Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
 Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file. This program is found in this root directory. Maven is also required for this project, as it is used to recieve data from the server that the Pico W device sends to.
 
 > If you intend to develop in Python and Micro Python:
-The latest version of Python and Python 3 should do just fine. 
+The latest version of Python and Python 3 should do just fine. Micro Python is needed in order to code the Pico. `Pico-W-Go` is great for connecting to the pico. If code from Arduino is understood it can be simple to translate to Micro Python.
 
 > If you intend to develop a mobile application using Flutter and Dart:
 Use the latest version of the Flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install)
