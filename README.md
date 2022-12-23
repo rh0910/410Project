@@ -142,6 +142,8 @@ Hopefully by the end of it, it looks like this.
 
 <img src="https://lh3.googleusercontent.com/GPYpcmP60vAKft4Qx-kJHeUNDz0JQqX0j0MB-kKpP_VdFN6PjyvarIFYEfd_0oY8fZo3DEfUYbssnBLHVzJdEUaj4tSBsuc0Pl0L9HCTQzm8827yOX80q3rrSov0tBRGTVcKUNG4f_xVwSbR8jn66Hci4YE-4jhsG-Y9sduamUIg_aXyl0Nnb2kT26P8EUWRHjDzEj3nadg3JLCANzDNp2NPS4EXcOcS4F3pDWgM-AngNpcEZ5VlN1OX5K8_7dIXc0UMn453hIIL7pFgpSzBkXHCUJSXRw9eA57wOxoArb7j9XAQAZ0TOfMhy8NLif9plDIyShaU4m9Lg4pQbr4wefYNBBrprl95bB9WbLap5b2KwxZSHOuLpJ03uZqQej6WXf2toMT_q14bx6DKZ5GOPIGq4Y_A6TwU2FSLaoXJE9HwUZpkpEHdMvS3tfT-xyQDY2qhjsfZur-DfzF9f9iUC5yh4M0nFQpLBs25zDXvk2FDmo03Fp3j8UibqEGmmRvFZtoC4kysZcBLMqvqz94FDBQJdQ4abwMiB7Xs_sttTMnxcviHLa04iRpzBDcp6g_2U5YOuRkE5HYcLk16PouzbtJrK8VYGG7gPcJ8sQLDUWtg4NJ9qLY3sbDbO153KyUVwgqMHyAeI8k0F1MX99uAekAm9ptPmsQs7BSMvfxXjxwQODPNaYWOoXCpS99EQ_-pHNOs3TX8g4pwB_CvucGSpC9OtzaglKkzeWkWhB6VC-S8zaEffoaTNZjCQMVFoNtFROZy7lApy23H8mIR00VTKmbrNCKNhC4dYMMqPLUbhtz-IhGAt0FS9lAdkjEwtzv2K840DHEtaYUnqYIaI6yAGXcTDqAi3pg4ijptDKWi5RW7DsnvbSngp1VtgaL8JrhLbKgTgIMTEu1W82EHXYKQEVL5Nb6AyaQPT3EMfhKEDcUHptc4Zw=w1521-h1321-no?authuser=0" width=50% height=50%>
 
+Source is my (Ronaldo) own picture of how we put our components together.
+
 To explain this, the four sensors are connected. We can see the red wire which is voltage in connected with rails. The black wire next to it is also connected to the rails. Looking closely at the pico, We can see the GP pins I am using are GP0, 1, 2 and 16. GP0 is connected to the crash sensor. GP1 is connected to the buzzer. GP2 is connected to the IR sensor. GP16 is connected to the knock sensor. 
 
 Now lets go through some example code.
