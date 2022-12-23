@@ -133,7 +133,6 @@ Again, all those voltage in and grounds can be connected to the rails and the re
 
 
 # Pre-requisites before running:
-
 * Ensure that you are upto date on your windows/mac/linux operating system.
 * Make sure that your internet connection is stable. Try watching `ONE` YouTube shorts video.
 * If you wish to run our version of the project as it is, all you need to do is have Java JDK. Ensure that your Java Jdk library are properly installed and upto date, try to make a "Hello World!" program and feel like a god tier coder! jk. Also, you do not need to worry onboarding/uploading any @signs becasue we just left our ones in the code. 
