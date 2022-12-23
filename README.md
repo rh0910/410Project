@@ -76,7 +76,13 @@ remote controllable devices, such as drones. This will allow the controller to k
 operational device. Thus, this can be installed on drones and be sent out for exploration. Maybe sometime it'll be used on robots sent out
 for interplanetary explorations, but for now we can stick on Earth.
 
-# // insert how to set up device //
+# How to Set up the Device
+We recieved the resistors, LEDS, jumper cables (wires), 2 Infrared Obstacle Avoidance sensors, 2 Knock sensor Modules, 1 Passive Buzzer Module, 1 Active Buzzer Module and 2 Collision Sensors. We also recieved a breadboard and the Raspberry Pi Pico. We wanted to put all the sensors together so I (Ronaldo) got another breadboard and more wires so that all the sensors could be connected to the pico. I (Ronaldo) used to be a Computer Engineering major so I had those parts laying around. If you, any one reading this, wants to connect all sensors you will need another breadboard and more wires. 
+
+To Begin setting up:
+![This is an image](https://cdn-shop.adafruit.com/970x728/4883-06.jpg = 250x250)
+
+
 replace all in this header with the setup instructions
 start from the very beginning, like the way we received
 all the part individually
