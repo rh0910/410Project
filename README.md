@@ -86,12 +86,51 @@ Image [Source](https://www.allelectronics.com/item/pb-400/solderless-breadboard-
 The breadboard is shown above. The pico perfectly fits in the middle from the letters cde and fgh. The pico has 40 pins to we goes into the holes up to the number 20. 
 We also need to mention how the breadboard works. The numbers are the rows and the rows are connected horizontally. For example row 1 A is connected up to row 1 E. Row 1 A is not connected to row 2 A. If you put a wire between those then they would be connected. Another thing to mention is the rails on the side with the + and -. The + denotes a voltage in and the red line means that all those holes are connected. The - denotes ground and the blue line mean all the holes next to it are all connected. These rails are very useful because they provide easy access of voltage in and ground. Now we need to start connecting all the sensors.
 
-replace all in this header with the setup instructions
-start from the very beginning, like the way we received
-all the part individually
-go over one component at a time, where to connecet, what to solder
-we never ended up using the resistors and LEDs for debugging, upto
-you if you want to mention those in here, it's cool if we dont ig
+The resistors and LEDS that were provided were to be used for debugging. We did not use them at all. Just letting you know that if you needed to use the LEDs you would need the resistor otherwise the LED would burn out. The buzzer that was given to us was a good debugger. 
+
+We should first discuss how these connections will happen.
+
+<img src="https://cdn-shop.adafruit.com/970x728/4883-06.png" width=60% height=60%>
+
+Image [Source](https://www.adafruit.com/product/4883?gclid=CjwKCAiAnZCdBhBmEiwA8nDQxSzivf3NmQMk7iUWZptxnislaWqZFTsSv0emR_lxNcoU3eRMLAi6whoCJeYQAvD_BwE)
+
+This shows how the pico is set up. It looks complicated but it is not. The GP pins are basically the ones we use. There is more specific things about each pins but we do not need to worry about the details. We have 4 components so lets just use 4 pins. We can use GP0 to GP3. We should use the VBUS pin as well because the contains the voltage for each component. We should also use GND which is ground so that we can ground the components. Any GND should be fine. We plug in wires in the breadboard row associated with those pins. 
+
+So first let us start with the ir sensor (Infrared Obstacle Avoidance sensors).
+
+<img src="https://arduinomodules.info/wp-content/uploads/Arduino_KY-032_IR_obstacle_avoidance_sensor_connection_diagram-1024x668.png" width=50% height=50%>
+
+Image [Source](https://arduinomodules.info/ky-032-infrared-obstacle-avoidance-sensor-module/)
+
+This is the setup with arduino using the same sensor we have but it is easy to follow. The red wire is the voltage in so you connect it to the pin that voltage. You can connect it to the rail which you should have connected with the wire connected to the VBUS pin on the pico. The black wire is ground. The blue wire is one of the GP pins. We can connect it to any GP pin. We do not need to worry about the 4th pin. Do not plug anything into it.
+
+Now the Crash Sensor.
+
+<img src="https://wiki.keyestudio.com/images/thumb/f/f3/Ks0021.png/700px-Ks0021.png" width=50% height=50%>
+
+Image [Source](https://wiki.keyestudio.com/Ks0021_keyestudio_Collision_Sensor)
+
+Again this has 3 pins. 1 is the voltage in and the other in ground. The last pin again will be connected to a GP pin.
+
+Now the Buzzer.
+
+<img src="https://wiki.keyestudio.com/images/thumb/1/18/Ks0018-.png/600px-Ks0018-.png" width=50% height=50%>
+
+Image [Source](https://wiki.keyestudio.com/Ks0018_keyestudio_Digital_Buzzer_Module)
+
+Again this has 3 pins. 1 is the voltage in and the other in ground. The last pin again will be connected to a GP pin.
+
+Lastly the Knock Sensor.
+
+<img src="https://wiki.keyestudio.com/images/thumb/7/75/Ks0024-.png/700px-Ks0024-.png" width=50% height=50%>
+
+Image [Source](https://wiki.keyestudio.com/Ks0024_keyestudio_Knock_Sensor_Module)
+
+Once again this has 3 pins. 1 is the voltage in and the other in ground. The last pin again will be connected to a GP pin.
+
+Again, all those voltage in and grounds can be connected to the rails and the rest are connected to the GP pins on the pico.
+
+
 
 # Pre-requisites before running:
 
