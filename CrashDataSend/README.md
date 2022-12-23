@@ -1,7 +1,6 @@
 # Sending Crash data
 
-crashdata.py is the code that sends data through the atSign. The rest of the files in this directory were provided by atSign and were used to test if the pico was working with sending data. Once we know that it was able to send data we used some of the code to send and the code to make the sensors work and combined them to make them send sensor data.
-
+crashdata.py is the code that sends data through the atSign. The rest of the files in this directory were provided by atSign and were used to test if the pico was working with sending data. Once we know that it was able to send data we used some of the code to send which was given by atSign and the code to make the sensors work and combined them to make them send sensor data. The settings.json file is the file that helps us connect wifi. WiFi is needed in order to send data.
 
 
 
