@@ -34,7 +34,7 @@ Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
 3. JetBrain IntelliJ(for Java) and Pycharm(for Python).
 
 > If you intend to develop in Java:
-Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file. This program is found in this root directory. Maven is also required for this project, as it is used to communicate and upload code to the Pico W device.
+Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file. This program is found in this root directory. Maven is also required for this project, as it is used to recieve data from the server that the Pico W device sends to.
 
 > If you intend to develop in Python and Micro Python:
 The latest version of Python and Python 3 should do just fine. 
