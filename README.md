@@ -1,16 +1,11 @@
 # 410Project
 
 # Project objective:
-Peer-to-peer communication system to exchange information about
-the presence of an object and whether a collision has occured
-with this object. Driving software developed in Java, along with the help of the @sign libraries and API.
+Peer-to-peer communication system using an IOT device to exchange information about the presence of an object and whether a collision has occured with this object. IOT device will "notify" or "ping" a user about both instances. Driving software developed in Java, along with the help of the @sign libraries and API.
 
 # Hardware equipment requirements: 
-Below is the list of required hardware components needed for this project.
-It is essential to set up the equipment properly. 
-
-The resistors and LED lights serve for debugging purposes and thus the project device will work without them.
-The list below is given in the order of: `name of part` and `count`.
+Below is the list of required hardware components needed for this project. It is essential to set up the equipment properly. The resistors and LED lights serve for debugging purposes and thus the project device will work without them.
+The list below is given in the order of `name of part` and `count` as follows:
 
 1.  `Raspberry Pi Pico W`, `1`
 2.  `Pico Headers`, `1`
@@ -28,25 +23,25 @@ The list below is given in the order of: `name of part` and `count`.
 
 OS: From Windows 7 upto Windows 10, macOS 10.15 (Catalina) to 13 (Ventura), or any Linux LTS operating system (preferably Ubuntu)
 Suggested code editors or IDEs to use:
-1. Microsoft Visual Studio Code(Overall good).
-Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
-2. Android Studio Dolphin (For Flutter/Dart development).
+1. Microsoft Visual Studio Code(Overall good). Extensions that came in handy are: `Pico-W-Go`, `PlatformIO IDE`
+
+2. Android Studio Dolphin (For application development in Flutter/Dart).
+
 3. JetBrain IntelliJ(for Java) and Pycharm(for Python).
 
 > If you intend to develop in Java:
 Any version of Java JDK LTS from version 8.0 to 17.0 will be needed to compile and run "Application.java" file. This program is found in this root directory. Maven is also required for this project, as it is used to recieve data from the server that the Pico W device sends to.
 
 > If you intend to develop in Python and Micro Python:
-The latest version of Python and Python 3 should do just fine. Micro Python is needed in order to code the Pico. `Pico-W-Go` is great for connecting to the pico. If code from Arduino is understood it can be simple to translate to Micro Python.
+The latest version of Python and Python 3 should do just fine. Micro Python is needed in order to code the Pico. `Pico-W-Go` extension for Microsoft Visual Studio Code is great for connecting and uploading code to the device. If code from Arduino is understood it can be simple to translate to Micro Python.
 
 > If you intend to develop a mobile application using Flutter and Dart:
-Use the latest version of the Flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install)
-for a step by step guide on how to properly set up the SDK.
-The latest version of the Dart SDK should be used. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
+Use the latest version of the Flutter SDK. Check out this [link](https://docs.flutter.dev/get-started/install) for a step by step guide on how to properly set up the SDK. The latest version of the Dart SDK should also be installed. [Here](https://dart.dev/get-dart) is a guide on how to setup Dart.
 
-Part of the goal of our project was to make use of the @sign libraries and API. Specifically for this project we made use of the 
-AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys.
-All these libraries, along with a whole lot more can be found on the @sign foundation github repository [here](https://github.com/atsign-foundation/)
+# Insights for the project
+Part of the goal of our project was to make use of the @sign libraries and API as a part of professor Kenneth Fletcher's (@kkfletch) course CS410. Our group was enrolled in his course in the Fall 2022 semester at University of Massachusettes Boston.
+
+In our project, we were to make use of the @sign API and libraries in order to develop and contruct a working device capable of securely transferring information over the internet. The libraries used intensively were the AtClient, AtSign, KeyBuilders, Keys, Keys.PublicKeys. All these libraries, along with a whole lot more can be found on the @sign foundation github repository [here](https://github.com/atsign-foundation/)
 
 Depending on which programming language you choose to use, @sign has you covered with how to get yourself familiar with their modules and libraries.
 Step-by-step instructions on properly setting up the software environment can be found in this [link](https://docs.atsign.com/), published by @sign themselves. Feel free to check it out.
@@ -56,7 +51,7 @@ Step-by-step instructions on properly setting up the software environment can be
 One atSign will be the device and the other atSign will 
 be displaying the data on an application."
 
-The purpose of this project is to demonstrate secure communication between two devices or two "involved parties" over the internet with the help of `@signs`. These `@signs` are the creation of the company called "@sign", which allows their users to create and own an unique individual identity on the company servers. Think of it like an email address or an online gamertag, which is distinct for every user. Using an `@sign` will allow the users to communicate with each other through the @sign company servers while maintaining absolute privacy. This privacy is provided due to the @sign company's encryption protocol for data transmission, as the data is encrypted using special keys, and it is the keys that are shared among `@signs`. This means no sudden advertisements about something which you have been talking about in your group chats.
+The purpose of this project is to demonstrate secure communication between two devices or two "involved parties", over the internet with the help of `@signs`. These `@signs` are the creation of the company called "@sign", which allows their users to create and own an unique individual identity on the company servers. Think of it like an email address or an online gamertag, which is distinct for every user. Using an `@sign` will allow the users to communicate with each other through the @sign company servers while maintaining absolute privacy. This privacy is provided due to the @sign company's encryption protocol for data transmission, as the data is encrypted using special public and private keys, and it is the keys that are shared among `@signs`. Once a key is recognized by the @sign servers, the data is then sent out to that @sign. This means no sudden advertisements about something which you have been talking about in your group chats.
 
 That being said, "communication" between `@signs` is not limited to just text chats or voice calls. These `@signs` are capable of being installed on `IOT` devices, allowing the devices to send and receive encrypted data over the internet. `IOT` stands for `Internet Of Things`, where a device is built using
 a combination of sensors that only serves to send and receive certain forms(s) of data while connected to the internet. Other than the listed parts mentioned above, there is a large variety of sensors available for anyone to purchase and start builing their own IOT device. Example uses of `IOT` devices include how a hospital nurse can be paged directly from the front desk, and a doctor directly receiving heart-rate data from a patient using an `IOT` device to measure the heart-rate etc. 
@@ -67,14 +62,11 @@ For this project, we have joined together and developed an `@sign IOT` device. T
 capable of sensing the presence of an object or "obstacle" in it's vicinity. Furthermore, our device should also be able to detect when a collision has
 occured with "obstacle".
 
-The two devices (or people behind the scene) are one in possession of the Pico W device and another person on a windows or mac or linux based computer running the "Application.java" program. Both need to be connected to the internet for this project to work. The Pico W device will send a "message" to this computer computer about obstacle and collision detection through the onboarded `@sign`.
+The two devices (or people behind the scene) are one in possession of the Pico W device and another person on a windows or mac or linux based computer running the "Application.java" program. Both need to be connected to the internet for this project to work. The Pico W device will send a "message" to this computer about the obstacle and collision detection through the onboarded `@sign`.
 
 # Potential use case
 
-Due to it's small size and scale, along with it being very light weight, our project IOT device can be installed and embedded onto 
-remote controllable devices, such as drones. This will allow the controller to know about collisions and avoid potentially damaging the 
-operational device. Thus, this can be installed on drones and be sent out for exploration. Maybe sometime it'll be used on robots sent out
-for interplanetary explorations, but for now we can stick on Earth.
+Due to it's small size and scale, along with it being very light weight, our project IOT device can be installed and embedded onto remote controllable devices, such as drones and robots. This will allow the controller, or even the drone or robot, to know about collisions and avoid potentially damaging the operational device. Thus, this can be installed on drones and be sent out for exploration, it can be attached onto robot body parts as to prevent potentially damaging it's hardware components. Maybe sometime it'll be used on robots sent outfor interplanetary explorations, but for now we can stick to Earth.
 
 # How to Set up the Device
 We recieved the resistors, LEDS, jumper cables (wires), 2 Infrared Obstacle Avoidance sensors, 2 Knock sensor Modules, 1 Passive Buzzer Module, 1 Active Buzzer Module and 2 Collision Sensors. We also recieved a breadboard and the Raspberry Pi Pico. We wanted to put all the sensors together so I (Ronaldo) got another breadboard and more wires so that all the sensors could be connected to the pico. I (Ronaldo) used to be a Computer Engineering major so I had those parts laying around. If you, any one reading this, wants to connect all sensors you will need another breadboard and more wires. 
@@ -102,28 +94,28 @@ we never ended up using the resistors and LEDs for debugging, upto
 you if you want to mention those in here, it's cool if we dont ig
 
 # Pre-requisites before running:
+
 * Ensure that you are upto date on your windows/mac/linux operating system.
 * Make sure that your internet connection is stable. Try watching `ONE` YouTube shorts video.
-* Ensure that your Java jdk library are properly installed and upto date, try to make a "Hello World!" program and feel like a god tier coder! jk.
-* If you wish to run our version of the project as it is, all you need to do is have Java JDK.
-* If you are intending to write your own fucntional code in Python or Flutter/Dart, make sure to clone clone the @sign library for those languages and properly import them into your application file. Python/MicroPython libraries can be found @ [this](https://github.com/atsign-foundation/at_pico_w), while for Flutter/Dart look @ [here](https://github.com/atsign-foundation/at_client_sdk). [see what I did there >_<]
+* If you wish to run our version of the project as it is, all you need to do is have Java JDK. Ensure that your Java Jdk library are properly installed and upto date, try to make a "Hello World!" program and feel like a god tier coder! jk. Also, you do not need to worry onboarding/uploading any @signs becasue we just left our ones in the code. 
+* If you are intending to write your own fucntional code or application in Python or Flutter/Dart, make sure to clone the @sign library for those languages and properly import them into your application file. Python/MicroPython libraries can be found @ [this](https://github.com/atsign-foundation/at_pico_w), while for Flutter/Dart look @ [here](https://github.com/atsign-foundation/at_client_sdk). [see what I did there >_<]
 
 # What to do and what to expect for the project
 > Two operational computer systems, any OS is fine, are needed.
 
 > On one computer, we need to verify stable internet connection.
 
-> Make sure that your firewall allows the device to access the internet
-through the connected computer.
+> Make sure that your firewall allows the device to access the internet through the connected computer.
 
-> After the device has been set up properly, it has to be connected to the computer. We need to make sure we have a micro usb cable that is a send data cable.
+> After the device has been set up properly, it has to be connected to the computer. We need to make sure we have a micro usb cable that is able to transfer data.
+
+> It is now time to create @signs for yourself and the Pico W device. Simply go to @sign's website by clicking [here](https://my.atsign.com/login). Details about creating @signs are provided in the website.
 
 > Depending on which code editor you use, you first upload the code found in "CrashData Send" on the Pico W device. This is easiest with `Pico-W-Go` as you can simply just click upload project and it uploads to the pico.
 
 > After that is complete, you are to run the "Application.java" file found in the root directory of this repository. This java file will display a GUI. It allows us to choose which sensor data we want to see. Since we can only see the ir obstacle sensor and the crash sensor we will see data from those.
 
-> With a stable internet connection and an @sign onboarded onto the Pico W device, the device will now be able to send out data
-when it will detect an object in its proximity and also send a message when a collision has taken place. In the GUI when we choose which data we want to see, each one shows different results. Obstacke detection will count how many seconds we see the object. Crash detection will count how times the crash sensor was hit. It wili save that value even when we change the mode.
+> With a stable internet connection and an @sign onboarded onto the Pico W device, the device will now be able to send out data when it will detect an object in its proximity and also send a message when a collision has taken place. In the GUI when we choose which data we want to see, each one shows different results. Obstacle detection will count how many seconds we see the object. Crash detection will count how times the crash sensor was hit. It will save that value even when we change the mode.
 
 # Contents in each directory
 ## More details can be found in each directory
@@ -149,3 +141,4 @@ for our project. It also contained the clones of "atmosphere_pro", found [here](
 and "atmosphere", found [here](https://github.com/atsign-foundation/atmosphere) repositories. There repositories were mainly clones
 to be looked at how the @sign API was implemented and used in the creation of mobile applications. 
 
+# That is all, thank you!
